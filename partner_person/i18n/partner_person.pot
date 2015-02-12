@@ -310,3 +310,42 @@ msgstr ""
 msgid "{'invisible':[('is_company','=',False)]}"
 msgstr ""
 
+#. module: partner_person
+#: field:res.partner,image_rights:0
+msgid "Image Rights"
+msgstr ""
+
+#. module: partner_person
+#: field:res.partner,medical_certificate:0
+msgid "Medical Certificate"
+msgstr ""
+
+#. module: partner_person
+#: model:res.groups,name:partner_person.person_image_rights
+msgid "Partner Person Image Rights"
+msgstr ""
+
+#. module: partner_person
+#: model:res.groups,name:partner_person.person_medical_certificate
+msgid "Partner Person Medical Certificate"
+msgstr ""
+
+#. module: partner_person
+#: help:partner.config.settings,group_image_rights:0
+msgid "Show Image Rights Field in Personal Information Tab"
+msgstr ""
+
+#. module: partner_person
+#: field:partner.config.settings,group_image_rights:0
+msgid "Show Image Rights Information"
+msgstr ""
+
+#. module: partner_person
+#: help:partner.config.settings,group_medical_certificate:0
+msgid "Show Medical Certificate Field in Personal Information Tab"
+msgstr ""
+
+#. module: partner_person
+#: field:partner.config.settings,group_medical_certificate:0
+msgid "Show Medical Certificate Information"
+msgstr ""

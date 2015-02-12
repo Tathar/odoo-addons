@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-29 18:28+0000\n"
-"PO-Revision-Date: 2015-02-11 00:30+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-02-12 20:14+0100\n"
+"Last-Translator: Pierre Emmanuel DOUET (Tathar) <tathar.dev@gmail.com>\n"
 "Language-Team: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.10\n"
-"Language: fr_FR\n"
 
 #. module: partner_person
 #: view:res.partner:partner_person.view_partner_person_form
@@ -219,7 +219,7 @@ msgstr "Information Personnel"
 #. module: partner_person
 #: field:res.partner,sex:0
 msgid "Sex"
-msgstr "Genre"
+msgstr "Sexe"
 
 #. module: partner_person
 #: field:partner.config.settings,group_person_birthdate:0
@@ -321,3 +321,47 @@ msgstr "Années )"
 #: view:res.partner:partner_person.view_partner_person_form
 msgid "{'invisible':[('is_company','=',False)]}"
 msgstr "{'invisible':[('is_company','=',False)]}"
+
+#. module: partner_person
+#: field:res.partner,image_rights:0
+msgid "Image Rights"
+msgstr "Droit à l'image"
+
+#. module: partner_person
+#: field:res.partner,medical_certificate:0
+msgid "Medical Certificate"
+msgstr "Certificat Médical"
+
+#. module: partner_person
+#: model:res.groups,name:partner_person.person_image_rights
+#, fuzzy
+msgid "Partner Person Image Rights"
+msgstr "Date d'anniversaire de la personne"
+
+#. module: partner_person
+#: model:res.groups,name:partner_person.person_medical_certificate
+#, fuzzy
+msgid "Partner Person Medical Certificate"
+msgstr "Date d'anniversaire de la personne"
+
+#. module: partner_person
+#: help:partner.config.settings,group_image_rights:0
+msgid "Show Image Rights Field in Personal Information Tab"
+msgstr ""
+"Afficher le champ Droit à l'Image dans l'onglet d'Information Personnel"
+
+#. module: partner_person
+#: field:partner.config.settings,group_image_rights:0
+msgid "Show Image Rights Information"
+msgstr "Afficher le champ Droit à l'Image"
+
+#. module: partner_person
+#: help:partner.config.settings,group_medical_certificate:0
+msgid "Show Medical Certificate Field in Personal Information Tab"
+msgstr ""
+"Afficher le champ Certificat Médical dans l'onglet d'Information Personnel"
+
+#. module: partner_person
+#: field:partner.config.settings,group_medical_certificate:0
+msgid "Show Medical Certificate Information"
+msgstr "Afficher le champ Certificat Médical"
