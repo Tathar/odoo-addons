@@ -36,6 +36,16 @@
     <record id="person_disabilities" model="res.groups">
         <field name="name">Partner Person Disabilities</field>
         <field name="category_id" ref="base.module_category_hidden"/>
+    </record>   
+
+    <record id="person_medical_certificate" model="res.groups">
+        <field name="name">Partner Person Medical Certificate</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>   
+
+    <record id="person_image_rights" model="res.groups">
+        <field name="name">Partner Person Image Rights</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
     </record>
 
 
