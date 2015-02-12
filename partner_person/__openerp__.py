@@ -25,6 +25,8 @@ Openerp consider a person those partners that have not "is_company" as true, now
 * National Identity
 * Passport
 * Marital Status
+* Medical Certificate
+* Image Rights
 
 It also adds a configuration menu for choosing which fields do you wanna see.
     """,

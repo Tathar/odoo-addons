@@ -44,6 +44,14 @@
                                 <field name="group_disabilities" class="oe_inline"/>
                                 <label for="group_disabilities"/>
                             </div>             
+                            <div>
+                                <field name="group_medical_certificate" class="oe_inline"/>
+                                <label for="group_medical_certificate"/>
+                            </div>
+                            <div>
+                                <field name="group_image_rights" class="oe_inline"/>
+                                <label for="group_image_rights"/>
+                            </div>
                         </div>
                     </group>
                 </form>
