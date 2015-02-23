@@ -30,6 +30,12 @@ class partner_configuration(osv.osv_memory):
         'group_person_nationality': fields.boolean("Show Nationality",
             implied_group='partner_person.person_nationality',
             help="Show Nationality Field in Personal Information Tab"),        
+        'group_medical_certificate': fields.boolean("Show Medical Certificate Information",
+            implied_group='partner_person.person_medical_certificate',
+            help="Show Medical Certificate Field in Personal Information Tab"),
+        'group_image_rights': fields.boolean("Show Image Rights Information",
+            implied_group='partner_person.person_image_rights',
+            help="Show Image Rights Field in Personal Information Tab"),
     }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

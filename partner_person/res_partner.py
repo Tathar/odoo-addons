@@ -103,7 +103,9 @@ class res_partner(models.Model):
         'res.partner', string='Wife',
         domain=[('sex', '=', 'F'), ('is_company', '=', False)],
         context={'default_sex': 'F', 'is_person': True})
-
+    medical_certificate = fields.Boolean(string='Medical Certificate')
+    image_rights = fields.Boolean(string='Image Rights')
+    
     @api.one
     @api.onchange('firstname', 'lastname')
     @api.constrains('firstname', 'lastname')
