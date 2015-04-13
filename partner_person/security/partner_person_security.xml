@@ -46,6 +46,11 @@
     <record id="person_image_rights" model="res.groups">
         <field name="name">Partner Person Image Rights</field>
         <field name="category_id" ref="base.module_category_hidden"/>
+    </record>   
+
+    <record id="person_insurance_certificate" model="res.groups">
+        <field name="name">Partner Person Insurance Certificate</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
     </record>
 
 

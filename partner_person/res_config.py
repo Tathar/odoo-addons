@@ -36,6 +36,9 @@ class partner_configuration(osv.osv_memory):
         'group_image_rights': fields.boolean("Show Image Rights Information",
             implied_group='partner_person.person_image_rights',
             help="Show Image Rights Field in Personal Information Tab"),
+        'group_insurance_certificate': fields.boolean("Show Insurance Certificate Information",
+            implied_group='partner_person.person_insurance_certificate',
+            help="Show Insurance Certificate Field in Personal Information Tab"),
     }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

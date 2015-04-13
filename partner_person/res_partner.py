@@ -105,6 +105,7 @@ class res_partner(models.Model):
         context={'default_sex': 'F', 'is_person': True})
     medical_certificate = fields.Boolean(string='Medical Certificate')
     image_rights = fields.Boolean(string='Image Rights')
+    insurance_certificate = fields.Boolean(string='Insurance Certificate')
     
     @api.one
     @api.onchange('firstname', 'lastname')

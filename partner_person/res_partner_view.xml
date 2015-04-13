@@ -50,6 +50,7 @@
                                 </div>
                                 <field name="medical_certificate" groups="partner_person.person_medical_certificate"/>
                                 <field name="image_rights" groups="partner_person.person_image_rights"/>
+                                <field name="insurance_certificate" groups="partner_person.person_insurance_certificate"/>
                             </group>
                             <group>
                                 <field name="sex" readonly="'from_member' in context"/>

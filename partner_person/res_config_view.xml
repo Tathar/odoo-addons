@@ -52,6 +52,10 @@
                                 <field name="group_image_rights" class="oe_inline"/>
                                 <label for="group_image_rights"/>
                             </div>
+                            <div>
+                                <field name="group_insurance_certificate" class="oe_inline"/>
+                                <label for="group_insurance_certificate"/>
+                            </div>
                         </div>
                     </group>
                 </form>
